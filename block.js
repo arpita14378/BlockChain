@@ -43,11 +43,5 @@ class BlockChain{
     }
 
 }
+module.exports = {Block,BlockChain};
 
-
-let a = new Block({from: "Arpita", to: "Aaditya"})
-
-let chain = new BlockChain()
-chain.addNewBlock(a)
-console.log(chain)
-console.log("Validity: " + chain.chainValidity())
