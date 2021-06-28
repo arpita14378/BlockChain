@@ -1,0 +1,23 @@
+{
+    "name": "blockchain",
+    "version": "0.0.1",
+    "description": "Application Description",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "type":"module",
+        "src":"milsymbol-2.0.0/src/milsymbol.js"
+    },
+    
+   
+    "dependencies": {
+        "angular": "latest",
+        "angular-ui-router": "~0.2.11",
+        "dat-gui": "latest",
+        "express": "~3.0.1",
+        "path": "latest",
+        "q": "latest",
+        "sequelize": "latest",
+        "tedious": "latest"
+    }
+}
